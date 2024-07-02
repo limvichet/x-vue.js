@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack CADT</title>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>Hello, FullStack CADT!</h1>
+        <p>Welcome to our first day!</p>
+        <input type="text" placeholder="Type something" v-model="message"/>
+        <p>{{ message }}</p>
+        <p>{{ count }}</p>
+        <p>{{ count }}</p>
+        <button @click="increment">Increase Count</button>
+        <button @click="decrement">Decrease Count</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
