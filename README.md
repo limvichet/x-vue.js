@@ -7,7 +7,7 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
 - [Development Environment](/development_environment.md)
 - [VS Code extensions for Vue.js Developerst](/vscode_extensions.md)
 - Frontend : Vue.js 
-  - D1 (Vue Widget, Vue SPA)
+  - W1 (Vue Widget, Vue SPA)
     - [Session #1](/Frontend/W1/S1/guide.md)
     - [Session #2](/Frontend/W1/S2/guide.md)
     - [Session #3](/Frontend/W1/S3/guide.md)
