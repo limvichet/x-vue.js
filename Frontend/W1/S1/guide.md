@@ -10,7 +10,7 @@ In this exercise, we'll be using Vue 3 as a CDN to understand some fundamental c
         ```html
         <head>
             ...
-            ...
+            <div id="app"></div>
             <script src="https://unpkg.com/vue@3"></script>
         </head>
         ```
