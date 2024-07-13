@@ -9,6 +9,8 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
 - Frontend : Vue.js 
   - W1 (Vue Widget, Vue SPA)
     - [Session #1](/Frontend/W1/S1/guide.md)
+      - [Program #1](/Frontend/W1/S1/pro01)
+      - [Program #2](/Frontend/W1/S1/pro02)
     - [Session #2](/Frontend/W1/S2/guide.md)
     - [Session #3](/Frontend/W1/S3/guide.md)
     - [Session #4](/Frontend/W1/S4/guide.md)

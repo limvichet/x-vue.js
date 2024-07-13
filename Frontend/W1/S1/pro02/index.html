@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #app{
+        margin: 0 auto;
+        width: 900px;        
+      }
+      h1{
+        background-color: #FFB3FF;
+        text-align: center;
+        padding: 6px 20px;
+        color: rgb(49, 76, 87);
+      }
+      ul li b {
+        color: #FFB3FF;
+      }
+      footer {
+        text-align: left;
+        margin-top: 50px;
+      }
+      address h5{
+        padding: 0;margin: 0;
+      }
+    </style>
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ title }}</h1>
+      <ul v-for="(desc, index) in descriptions" :key="index">        
+        <li><b>{{ desc.title }}</b>{{ desc.short }}</li>
+      </ul>
+      <address v-for="(address) in addresses">
+        <h5>{{ address }}</h5>
+      </address>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
