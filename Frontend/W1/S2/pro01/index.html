@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    
+<div id="app">
+    <input type="text" id="todoInput" v-model="newTodo">
+    <button @click="addTodo">Add</button>
+
+    <ul>
+        <li v-for="(todo, index) in todos" :key="index">
+            {{ todo }}
+            <button @click="completeTodo(index)">Complete</button>
+            <button @click="deleteTodo(index)">Delete</button>
+        </li>
+    </ul>
+
+    <ul>
+        <li v-for="(c, index) in completes" :key="index">
+            {{ c }}
+        </li>
+    </ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

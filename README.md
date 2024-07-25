@@ -1,4 +1,4 @@
-# Welcome to x-vue.js
+# Welcome to vue
 
 Welcome aboard to our FullStack development course
 
