@@ -15,5 +15,7 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
       - [Program #4](/Frontend/W1/S1/pro04/index.html)
       - [Program #5](/Frontend/W1/S1/pro05/index.html)
     - [Session #2](/Frontend/W1/S2/guide.md)
+      - [Program #1](/Frontend/W1/S2/pro01/index.html)
+      - [Program #2](/Frontend/W1/S2/pro02/todolist_template.html)
     - [Session #3](/Frontend/W1/S3/guide.md)
     - [Session #4](/Frontend/W1/S4/guide.md)
