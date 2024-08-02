@@ -20,4 +20,4 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
     - [Session #3](/Frontend/W1/S3/guide.md)
       - [Program #1](/Frontend/W1/S3/pro01/index.html)
     - [Session #4](/Frontend/W1/S4/guide.md)
-      - [Program #1](/Frontend/W1/S34/pro01/public/index.html)
+      - [Program #1](/Frontend/W1/S4/pro01/public/index.html)[text]
