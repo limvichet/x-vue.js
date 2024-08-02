@@ -18,4 +18,6 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
       - [Program #1](/Frontend/W1/S2/pro01/index.html)
       - [Program #2](/Frontend/W1/S2/pro02/todolist_template.html)
     - [Session #3](/Frontend/W1/S3/guide.md)
+      - [Program #1](/Frontend/W1/S3/pro01/index.html)
     - [Session #4](/Frontend/W1/S4/guide.md)
+      - [Program #1](/Frontend/W1/S34/pro01/public/index.html)
