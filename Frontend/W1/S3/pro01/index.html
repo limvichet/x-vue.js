@@ -12,23 +12,7 @@
       <h2>{{ title }}</h2>
       <h3>Description</h3>
       <p>{{ desctiption }}</p>
-
-      <div @mouseover="handleMouseOver">Hover over me</div>
-      <div @dblclick="handleDoubleClick">Double click me</div>
-      <div @mousemove="handleMouseMove">Move mouse over me</div>
-      <a :href="link">Click me</a>
-
-
-      
-      <div v-for="(item, index) in books" :key="index">
-        <div v-if="index%2 == 0">
-            <p>{{item.title}}</p>
-            <img :src="'assets/images/' + item.image">
-        </div>
-      </div>
-
     </div>
     <script src="app.js"></script>
   </body>
 </html>
-

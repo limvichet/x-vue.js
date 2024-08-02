@@ -1,26 +1,29 @@
 const app = Vue.createApp({
-    data() {
-        return {
-            message: 'Welcome to BootCamp D1 S3',
-            count: 0,
-            link:'https://www.tfdevs.com',
-            books: [
-                { title: 'Book 1', image: './assets/book1.png', show: false },
-                { title: 'Book 2', image: './assets/book2.png', show: false },
-                { title: 'Book 3', image: './assets/book3.png', show: false }
-            ]
-        }
+  data() {
+    return {
+      link: "https://www.google.com",
+      hello: "Hello, Vue! far from home",
+      title: "Lorem ipsum dolor sit amet consectetur",
+      desctiption:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid exercitationem adipisci deserunt alias temporibus sint possimus nam quos animi",
+        books: [
+            { title: 'Book 1', image: 'pexels-1.jpg' },
+            { title: 'Book 2', image: 'pexels-2.jpg' },
+            { title: 'Book 3', image: 'pexels-3.jpg' },
+            { title: 'Book 4', image: 'pexels-4.jpg' }
+        ]
+    };
+  },
+  methods: {
+    handleMouseOver() {
+      console.log("Mouse over event occurred!");
     },
-    methods:{
-        handleMouseOver(){
-            this.count++
-        },
-        handleMouseLeave(){
-            this.count = 0
-        },
-        handleDBClick(){
-            this.count*=2
-        },
-    }
+    handleDoubleClick() {
+      console.log("Double click event occurred!");
+    },
+    handleMouseMove() {
+      console.log("Mouse move event occurred!");
+    },
+  },
 });
-app.mount('#app');
+app.mount("#app");
