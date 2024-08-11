@@ -3,7 +3,7 @@ const app = Vue.createApp({
       return {
         message: "Welcome to BootCamp D3 Practice 1",
         count: 0,
-        link: "https://www.tfdevs.com",
+        link: "https://www.google.com",
         books: [
           { title: "Book 1", image: "./assets/book1.png", view: "hide" },
           { title: "Book 2", image: "./assets/book2.png", view: "hide" },
