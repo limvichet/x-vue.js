@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/laravel.png">
-  <HelloWorld msg="Write code for the joy of it."/>
+  <ChildComponent message="Write code for the joy of it."/>
+  <ChildComponent :message="parentMessage"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChildComponent from './components/ChildComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChildComponent
+  },
+  data(){
+    return {
+      parentMessage: "Messge from parent-component"
+    }
   }
 }
 </script>
