@@ -26,3 +26,7 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
       - [Program #3](/Frontend/SPA/S4/pro03/public/index.html)
       - [Program #4](/Frontend/SPA/S4/pro04/public/index.html)
 - Component Stlying, Router
+    - [Session #1 Widget](/Frontend/CSR/S1/guide.md)
+    - [Session #2 Widget](/Frontend/CSR/S2/guide.md)
+    - [Session #3 Widget](/Frontend/CSR/S3/guide.md)
+    - [Session #4 Widget](/Frontend/CSR/S4/guide.md)
