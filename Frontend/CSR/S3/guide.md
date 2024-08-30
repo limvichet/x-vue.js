@@ -1,4 +1,4 @@
-# D2 S3: Vue Router
+# Vue Router
 
 ## Introduction to Vue Router
 Vue Router is the official router for Vue.js. It deeply integrates with Vue.js core to make single-page application development a breeze.

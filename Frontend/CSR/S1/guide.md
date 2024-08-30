@@ -1,4 +1,4 @@
-# D2 S1: Styling Vue 3 Components
+# Styling Vue 3 Components
 
 In Vue 3, you have several options to style your components, including global styles, component-specific styles, scoped styles, and using preprocessors like Sass. Let's walk through each method and how to apply them.
 

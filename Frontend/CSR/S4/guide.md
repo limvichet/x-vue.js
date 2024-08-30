@@ -1,4 +1,4 @@
-# D2 S4: Apply Vue Router
+# Apply Vue Router
 
 Please go back to [Session #2](/Modules/D2/S2/guide.md) and apply `vue-router` there to navigate page.
 
