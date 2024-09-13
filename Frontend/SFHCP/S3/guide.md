@@ -41,34 +41,30 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import pinia from './pinia.js'
 
-const app = createApp(App)
-
-app.use(pinia)
-
-app.mount('#app')
+createApp(App)
+.use(pinia)
+.mount('#app')
 ```
 
 ## Step 3: Define and Use Pinia Stores
 
 Now that Pinia is set up in your Vue app, you can define and use Pinia stores to manage your application state.
 
-Create a new file called `counter.js` in your project's `src/store` directory:
+Create a new file called `counter.js` in your project's `src/stores` directory:
 
 ```javascript
 import { defineStore } from 'pinia'
 
-export const useCounterStore = defineStore('counter', {
+export const useTaskStore = defineStore('taskStore', {
   state: () => ({
-    count: 0
-  }),
-  actions: {
-    increment() {
-      this.count++
-    },
-    decrement() {
-      this.count--
-    }
-  }
+    tasks: [
+        {id: 1, title: 'HTML is the standard markup language for Web pages', isFav: false},
+        {id: 1, title: 'CSS is the language we use to style an HTML document.', isFav: false},
+        {id: 1, title: 'JavaScript is the programming language of the Web', isFav: true},
+        {id: 1, title: 'Vue is progressive JavaScript Framework. An approachable', isFav: true},
+    ],
+    name: 'My Tasks'
+  })
 })
 ```
 
@@ -77,24 +73,22 @@ simple option API with the help of helper. The second way is to use composition 
 We can import `mapState` and `mapActions` from `pinia` and use in our component `computed` and `methods` property accordingly.
 
 ```html
+<!-- App.js -->
 <template>
-  <div>
-    <p>Count: {{ count }}</p>
-    <button @click="increment">Increment</button>
-    <button @click="decrement">Decrement</button>
-  </div>
+  <header>{{ taskStore.name }}</header>
+  <main v-for="(task, index) in taskStore.tasks" :key="index">
+    <p>{{ task.id }} {{ task.title }} {{ task.isFav }}</p>
+  </main>
 </template>
 
 <script>
-import { useCounterStore } from '@/store/counter'
-import { mapState, mapActions } from 'pinia'
+import { useTaskStore } from '@/stores/TaskStore'
+
 export default {
-  computed:{
-    ...mapState(useCounterStore, ['count']),
-  },
-  methods:{
-    ...mapActions(useCounterStore, ['increment','decrement']),
+  setup(){
+    const taskStore = useTaskStore()
+    return {taskStore}
   }
-}
+};
 </script>
 ```
