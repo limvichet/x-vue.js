@@ -38,19 +38,21 @@ Next, import the Pinia instance into your main Vue app file (usually `main.js` o
 
 ```javascript
 import { createApp } from 'vue'
-import App from './App.vue'
-import pinia from './pinia.js'
+import App from '@/App.vue'
+import pinia from '@/pinia.js'
+
 
 createApp(App)
 .use(pinia)
 .mount('#app')
+
 ```
 
 ## Step 3: Define and Use Pinia Stores
 
 Now that Pinia is set up in your Vue app, you can define and use Pinia stores to manage your application state.
 
-Create a new file called `counter.js` in your project's `src/stores` directory:
+Create a new file called `TaskStore.js` in your project's `src/stores` directory:
 
 ```javascript
 import { defineStore } from 'pinia'
