@@ -23,7 +23,17 @@ export const useTaskStore = defineStore("taskStore", {
         title: "Vue is progressive JavaScript Framework. An approachable",
         isFav: true,
       },
+      {
+        id: 5,
+        title: "Vue is progressive JavaScript Framework. An approachable",
+        isFav: true,
+      },
     ],
     name: "My task",
   }),
+  getters: {
+    favs(){
+      return this.tasks.filter(x => x.isFav)
+    }
+  }
 });
