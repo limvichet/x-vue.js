@@ -53,8 +53,7 @@ Create a new file called `db.json` in your project's `data/db.json` directory:
       "title": "Vue is progressive JavaScript Framework. An approachable",
       "isFav": true
     }
-  ],
-  "name": "My task"
+  ]
 }
 ```
 
