@@ -17,7 +17,16 @@
       <p>All task</p>
       <div v-for="(task, index) in taskStore.tasks" :key="index">
         <div class="task">
-          {{ task.title }} <small><b>{{ task.isFav }} </b></small>
+          {{ task.title }} 
+
+          <div>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-sharp" style="color: #EA3323;">delete</span>
+            <!-- <span class="material-symbols-outlined">delete</span> -->
+          </div>
+
+          <!-- <small><b>{{ task.isFav }} </b></small> -->
+
         </div>
       </div>
     </div>
@@ -27,7 +36,10 @@
       <p>All favs</p>
       <div v-for="(task, index) in taskStore.favs" :key="index">
         <div class="task">
-          {{ task.title }} <small><b>{{ task.isFav }} </b></small>
+          {{ task.title }} 
+
+          <small><b>{{ task.isFav }} </b></small>
+
         </div>
       </div>
     </div>

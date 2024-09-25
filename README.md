@@ -21,4 +21,4 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
     - [Session #1 Slots](/Frontend/SFHCP/S1/guide.md)
     - [Session #2 Form Handling](/Frontend/SFHCP/S2/guide.md)
     - [Session #3 Pinia ](/Frontend/SFHCP/S3/guide.md)
-    - [Session #4 Migrate to Pinia ](/Frontend/SFHCP/S4/guide.md)
+    - [Session #4 Json server/Migrate to Pinia ](/Frontend/SFHCP/S4/guide.md)
