@@ -70,6 +70,7 @@ json-server -w ./src/data/db.json
     async getTasks() {
       this.loading = true
 
+      
       const res = await fetch("http://localhost:3000/tasks")
       const data = await res.json()
 
@@ -99,4 +100,67 @@ export default {
   }
 };
 </script>
+```
+## Step 5: Add actions addTask(task)
+
+```bash
+  actions: {
+    async addTask(task) {
+      this.tasks.push(task)
+
+      // Post method
+      const res = await fetch("http://localhost:3000/tasks", {
+        method: 'POST',
+        body: JSON.stringify(task),
+        headers: {'Content-Type': 'application/json'}
+      })
+
+      if(res.error){
+        console.log(res.error)
+      }
+    }
+}
+```
+
+## Step 6: Add actions deleteTask(id)
+
+```bash
+  actions: {
+    async deleteTask(id) {
+      this.tasks = this.tasks.filter(x => {
+        return x.id != id
+      })
+      
+      // DELETE method
+      const res = await fetch("http://localhost:3000/tasks/" + id, {
+        method: 'DELETE',
+      })
+
+      if(res.error){
+        console.log(res.error)
+      }
+    }
+}
+```
+
+## Step 7: Add actions toggleFav(id)
+
+```bash
+  actions: {
+    async toggleFav(id){
+      const task = this.tasks.find(x => x.id == id)
+      task.isFav = !task.isFav
+      
+      // PATH method
+      const res = await fetch('http://localhost:3000/tasks/' + id, {
+        method: 'PATCH',
+        body: JSON.stringify({ isFav: task.isFav }),
+        headers: {'Content-Type': 'application/json'}
+      })
+
+      if(res.error){
+        console.log(res.error)
+      }
+    }
+}
 ```
