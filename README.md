@@ -22,3 +22,8 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
     - [Session #2 Form Handling](/Frontend/SFHCP/S2/guide.md)
     - [Session #3 Pinia ](/Frontend/SFHCP/S3/guide.md)
     - [Session #4 Json server/Migrate to Pinia ](/Frontend/SFHCP/S4/guide.md)
+  - Async Promises, Await, File Upload, i18n
+    - [Session #1 Async Promises](/Frontend/AFI18/S1/guide.md)
+    - [Session #2 File Upload](/Frontend/AFI18/S2/guide.md)
+    - [Session #3 i18n ](/Frontend/AFI18/S3/guide.md)
+    - [Session #4 Practice ](/Frontend/AFI18/S4/guide.md)
