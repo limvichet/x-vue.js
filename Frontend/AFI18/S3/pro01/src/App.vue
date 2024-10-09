@@ -1,7 +1,8 @@
 <template>
   <img alt="Vue logo" src="./assets/laravel.png">
   <HelloWorld msg="Write code for the joy of it."/>
-
+  <p>{{ $t('welcome') }}</p>
+  <p>{{ $t('message') }}</p>
   <button @click="changeLocale('en')">English</button>
   <button @click="changeLocale('fr')">Français</button>
 
