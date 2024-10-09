@@ -1,6 +1,5 @@
 # S1: Let's Review JS
 
-
 ## Object Destructuring
 
 Object destructuring is a convenient way to extract values from objects and assign them to variables. It allows you to unpack properties from objects into distinct variables.
