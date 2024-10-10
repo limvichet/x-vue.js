@@ -32,3 +32,6 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
     - [Session #2 Netlify](/Frontend/DFCAD/S2/guide.md)
     - [Session #3 Migrating ](/Frontend/DFCAD/S3/guide.md)
     - [Session #4 Debugging ](/Frontend/DFCAD/S4/guide.md)
+  - Performance, Optimzing
+    - [Session #1 Performance](/Frontend/PO/S1/guide.md)
+    - [Session #2 Optimzing](/Frontend/PO/S2/guide.md)
