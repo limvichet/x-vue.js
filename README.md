@@ -27,3 +27,8 @@ We're thrilled to have you join us on this exciting journey of exploration, lear
     - [Session #2 File Upload](/Frontend/AFI18/S2/guide.md)
     - [Session #3 i18n ](/Frontend/AFI18/S3/guide.md)
     - [Session #4 Practice ](/Frontend/AFI18/S4/guide.md)
+  - Env, Netlify, Migrating, Deployment, Debugging
+    - [Session #1 Env File](/Frontend/DFCAD/S1/guide.md)
+    - [Session #2 Netlify](/Frontend/DFCAD/S2/guide.md)
+    - [Session #3 Migrating ](/Frontend/DFCAD/S3/guide.md)
+    - [Session #4 Debugging ](/Frontend/DFCAD/S4/guide.md)
